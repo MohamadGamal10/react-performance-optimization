@@ -10,6 +10,7 @@ function App() {
     setCount(count + 1);
   };
 
+  // React.memo => memo(component)
   // use Memo (Object , Array, Function return) => Value
   const name = useMemo(() => {
     return user;
